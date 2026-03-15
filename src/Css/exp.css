@@ -1,0 +1,121 @@
+.exp-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.exp-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #66BFBF;
+}
+.Role{
+  color: #66BFBF !important;
+  font-size: 2rem;
+}
+.timeline {
+  position: relative;
+  border-left: 5px solid #e53935;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -11px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  background: #e53935;
+  border-radius: 50%;
+}
+.timeline-card {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;   /* 👈 ADD THIS */
+}
+.timeline-card h3 {
+  margin: 0;
+}
+
+.company {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color:#FFC107;
+}
+
+.duration {
+  display: block;
+  font-size: 13px;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.timeline-card ul {
+  padding-left: 18px;
+  margin: 0;
+  color: white;
+}
+
+.timeline-card li {
+  /* font-size: 14px; */
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .timeline {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .timeline-dot {
+    display: none;
+  }
+}
+
+/* Header layout */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* Company logo circle */
+.company-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;   /* 👈 centers it */
+}
+
+.company-logo img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .card-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-logo {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+
+  /* Keyframes for gradient animation */
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%; /* Start at the beginning of the gradient */
+    }
+    50% {
+      background-position: 100% 50%; /* Move to the end of the gradient */
+    }
+    100% {
+      background-position: 0% 50%; /* Move back to the beginning */
+    }
+  }

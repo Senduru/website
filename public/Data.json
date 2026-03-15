@@ -1,0 +1,132 @@
+{
+  "profileImage": "../src/assets/images/data_img/home_profile.jpg",
+  "title": "Junior Network Engineer &",
+  "name": " IT Support Specialist",
+  "role": "Experienced in configuring and managing Active Directory environments, implementing secure network infrastructure, and supporting enterprise desktop systems.",
+  "downloadCV": {
+    "file": "/SenduruNew.pdf",
+    "label": "Download CV"   
+  },
+  "Aboutimage": "../src/assets/images/data_img/Profile.jpg",
+  "AboutDescription":[
+    "Currently, I am working as an IT Executive at,","VHS Hospital"," , where I manage enterprise IT operations including Active Directory administration, user management, network configuration, and system troubleshooting. I handle infrastructure support and ensure smooth day-to-day IT operations.",
+    "Previously, I worked as a Junior Programmer at ","ENA Game Studio", " For 1.5 years, where I was involved in application development, debugging, and deployment support. This experience strengthened my logical thinking and problem-solving abilities.",
+    "I specialize in Active Directory configuration, router and switch setup, LAN/WAN troubleshooting, Windows Server administration, and Microsoft 365 and Google Workspace configuration. My goal is to build a strong career in System Administration, Networking, and Cloud Infrastructure."
+  ],
+  "table": {
+    "section1": [
+      { "Name": "Senduru", "Email": "senduru3701@gmail.com", "Age": "23" }
+    ],
+    "section2": [
+      { "Phone": "7358370724", "Job": "Front-End Developer", "From": "Chennai" }
+    ]
+  },
+  "button": {
+    "label": "Contact Me",
+    "link": "#contact"
+  },
+  "college": {
+    "name": "kumararani meena muthiah college of arts and science",
+    "description": "Established in 1996, the college is known for its excellence in Arts, Science, and Technology education. Accredited with an A Grade and supported by experienced faculty, it provides a strong academic foundation for student growth. I completed my BCA degree here in 2021.",
+    "address": "Adyar, Chennai, Tamil Nadu, India",
+    "link": "https://krmmc.edu.in/home",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaJRxAVxWxfG909tq42UbZHA3ySDoUKzzuhg&s"
+  },
+  "experience": [
+    {
+      "company": "VHS HospitaL",
+      "role": "IT EXCUTIVE ",
+      "duration": "2025 TO PRECENT",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/VHS_Logo_Cropped.png",
+      "points": [
+        "Hardware troubleshooting",
+        "OS installation"
+      ]
+    },
+    {
+      "company": "Ram Infotech",
+      "role": "Laptop Technician",
+      "duration": "2021 (6 Months)",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaJRxAVxWxfG909tq42UbZHA3ySDoUKzzuhg&s",
+      "points": [
+        "Hardware troubleshooting",
+        "OS installation"
+      ]
+    },
+    {
+      "company": "ENA Game Studio",
+      "role": "Junior Software Developer",
+      "duration": "1.5 Years",
+      "points": [
+        "UI development",
+        "Animation issue fixing"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "MovieLab",
+      "description": "Latest Movie Listings Fetches and displays real-time movie data from IMDb.Search Functionality Easily find any movie by title.Movie Details. View in-depth information, including synopsis, cast, and IMDb ratings.Responsive Design Built with Bootstrap for a seamless experience on all devices.Interactive UI  Designed with HTML, CSS, and JavaScript to provide a smooth user experience.",
+      "image": "https://i.pinimg.com/736x/e1/8d/04/e18d043ab7a2860bfc6a7664065ccca8.jpg",
+      "technologies": ["React.js", "HTML","CSS","Bootsrap 5","IMDb API"],
+      "link": "https://senduru.github.io/movielab/"
+    }
+  ],
+  
+  "tools": [
+    {
+      "name": "Figma",
+      "image": "https://i.pinimg.com/736x/63/a7/b1/63a7b1894b3210d07e434e9d12170586.jpg",
+      "usage": 75,
+      "rating": 4
+    }
+
+  ],
+  
+    "ContactTitle": "Get in Touch",
+    "description": "We would love to hear from you. Reach out to us anytime!",
+    "contactMethods": [
+      {
+        "type": "Location",
+        "text": "KotturPuram, Chennai-600085.",
+        "icon": "../src/assets/images/location.png",
+        "link": "https://maps.app.goo.gl/ikVRptXxzcZAmKY36"
+      },
+      {
+         "type": "Location",
+        "text": "KotturPuram, Chennai-600085.",
+        "icon": "../src/assets/images/call.png",
+        "link": "https://maps.app.goo.gl/ikVRptXxzcZAmKY36"
+      },
+      {
+        "type": "Email",
+        "text": "Senduru3701@gmail.com",
+        "icon": "../src/assets/images/email.png",
+        "link": "https://mail.google.com/mail/?view=cm&fs=1&to=senduru3701@gmail.com&su=Hello&body=Hi%20Senduru"
+      }
+    ],
+    "formTitle": "Contact Us",
+    "qrCode": {
+      "image": "../src/assets/images/data_img/QR.png",
+      "link": "https://www.linkedin.com/in/senduru/"
+    },
+    "socialLinks": [
+      {
+        "className": "whatsapp-btn",
+        "icon": "fab fa-whatsapp",
+        "href": "https://api.whatsapp.com/send?phone=7358370724&text=Hi!"
+      },
+      {
+        "className": "github-btn",
+        "icon": "fab fa-github",
+        "href": "https://github.com/Senduru"
+      },
+      {
+        "className": "linkedin-btn",
+        "icon": "fab fa-linkedin-in",
+        "href": "https://www.linkedin.com/messaging"
+      }
+    ]
+}

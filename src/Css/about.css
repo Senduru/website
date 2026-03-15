@@ -1,0 +1,148 @@
+
+.about-profile-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+  transition: transform 0.5s ease-out;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7), 0 0 20px rgba(0, 123, 255, 0.7);
+  filter: grayscale(100%);
+}
+.about-profile-image img{
+  min-width: 100vh;
+  min-height: 100vh;
+}
+.about-profile-image:hover {
+  filter: grayscale(0%);
+}
+/* Styling for the paragraph */
+p {
+  font-size: 19px;
+  color: #fff ;
+}
+h1{
+  margin-top: 10px;
+  color: #66BFBF;
+}
+
+.table-responsive {
+  margin-top: 30px;
+}
+/* Ensuring table rows have some padding */
+.table td, .table th {
+  padding: 12px;
+  text-align: center;
+}
+.table thead th {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent; /* Green */
+  color: #38B000; /* Text color */
+  border: none;
+  font-size: 20px;
+}
+.table tbody tr,td {
+  background-color: transparent !important;
+  border: none; /* Light gray */
+  color: #fff !important;
+}
+
+.button-container .btn {
+  margin: 0 10px;
+}
+
+/* Custom hover effect for filled button */
+.btn-primary:hover {
+  background-color: #004085; /* Darker shade of blue */
+  border-color: #004085;
+}
+
+/* Custom hover effect for outline button */
+.btn-outline-primary:hover {
+  background-color: #004085; /* Same color as filled button */
+  color: white; /* White text on hover */
+}
+.download-btn-1 {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  padding:13px !important;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+.download-btn-1:hover {
+  box-shadow: 5px 5px 20px rgba(49, 30, 221, 0.747);
+}
+.download-btn-2 {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  padding:13px !important;
+  border-radius: 10px;
+  border: 1px soild #00bcd4;
+  color: #fff;
+  margin-top: 10px;
+}
+.download-btn-2:hover {
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  box-shadow: 5px 5px 20px rgba(49, 30, 221, 0.747);
+}
+
+/* college content */
+/* Container Styling */
+.college-container {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient Background */
+  color: #fff; /* White text for readability */
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(49, 30, 221, 0.747);
+}
+
+/* College Details Section */
+.college-details {
+  padding: 20px;
+  font-family: "Roboto", sans-serif; /* Modern font */
+}
+
+.college-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.college-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.college-address {
+  font-size: 1rem;
+}
+
+/* College Image Styling */
+.college-image {
+  width: 90%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.college-image:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+.custom-link {
+  color:rgb(45, 207, 248);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: rgb(255, 93, 193);
+  text-decoration: none;
+}

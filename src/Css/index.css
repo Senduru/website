@@ -1,0 +1,43 @@
+/* *{
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+} */
+ 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /*all text */
+body{
+  background: rgb(2,62,88);
+  background: radial-gradient(circle, rgba(2,62,88,1) 0%, rgba(0,0,0,1) 100%);
+
+}
+*{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+::-moz-selection { 
+  color: #ffff;
+  background: #8d14f0;
+}
+::selection {
+  color: #ffff;
+  background: #8d14f0;
+}
+.falling-object {
+  font-size: 50px;
+  animation: fall 3s infinite ease-in;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}

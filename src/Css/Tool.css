@@ -1,0 +1,114 @@
+.tool-container {
+  padding: 20px;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+h3{
+  color: white;
+  text-align: center;
+}
+/* Horizontal Scrolling with Animation */
+.ToolCard-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth; 
+  border-radius: 30px;
+
+  justify-content: center; /* 🔹 CENTER ALL CARDS WHEN FEW */
+  flex-wrap: wrap;          /* 🔹 wrap to next line if more cards */
+}
+
+
+.ToolCard-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.ToolCard-list::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 4px;
+}
+
+.ToolCard-list::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Card Styles */
+.ToolCard {
+  flex: 0 0 auto; /* Prevent shrinking, maintain consistent size */
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  align-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  box-shadow: 5px 5px 20px rgba(49, 30, 221, 0.747) !important;
+}
+.ToolCard {
+  flex: 0 0 auto; /* maintain width, no stretching */
+  width: 200px;
+  margin-bottom: 10px;
+
+  /* Optional: center text / image already in your CSS */
+}
+
+/* Hover effect */
+/* .ToolCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.ToolCard-top {
+  height: 150px;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.ToolCard img {
+  max-width: 130px;
+  border-radius: 10px;
+}
+
+.progress-bar-container {
+  margin: 10px 0;
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.rating {
+  color: #f1d42d;
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #e22a2a;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.ToolCard.active {
+  border: 2px solid rgb(231, 76, 76);
+  /* transform: scale(1.1); */
+}

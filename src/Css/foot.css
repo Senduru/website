@@ -1,0 +1,16 @@
+.nav-item a{
+    color: #66BFBF !important;
+}
+footer p{
+    color: #66BFBF !important;
+}
+.nav-item a:hover{
+    color:rgb(248, 45, 79) !important;
+    text-decoration: underline;
+}
+.foot-contain{
+    background: rgba(181, 222, 255, 0.438); 
+    box-shadow: 0 8px 30px 0 rgba(90, 156, 255, 0.507);
+    border-radius: 10px 10px 0px 0px;
+   
+}

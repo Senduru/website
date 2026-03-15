@@ -1,0 +1,101 @@
+/* General Styling */
+.glass-navbar {
+    position: fixed;
+    top: 10px; /* Ensures it stays at the top */
+    left: 50%; /* Centers it horizontally */
+    transform: translateX(-50%); /* Centers the element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background: rgba(181, 222, 255, 0.438); /* Transparent Glass Effect */
+    box-shadow: 0 8px 30px 0 rgba(61, 127, 226, 0.507);
+    backdrop-filter: blur(10px);
+    border-radius: 30px; /* Capsule Shape */
+    z-index: 999; /* Ensures it's on top of all elements */
+    animation: slide-down 0.8s ease-in-out;
+    width: auto;
+  }
+  
+  /* Navigation List */
+  .nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Individual Nav Items */
+  .nav-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    position: relative;
+  }
+  
+  .nav-item a:hover {
+     
+    transform: translateY(-5px);
+  }
+  
+  /* Icon Styling */
+  .nav-item i {
+    font-size: 2rem; /* Icon Size */
+    margin-bottom: 5px;
+  }
+  
+  /* Text Styling (Hidden by Default) */
+  .nav-text {
+    font-size: 1rem;
+    color: transparent;
+    position: absolute;
+    bottom: -25px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item a:hover .nav-text {
+    color: #fff;
+    opacity: 1;
+    bottom: -10px; /* Slides up on hover */
+  }
+  
+  /* Entry Animation */
+  @keyframes slide-down {
+    from {
+      transform: translateX(-50%) translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(-50%);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .glass-navbar {
+      top: 10px;
+      padding: 10px 20px;
+      flex-direction: row;
+    }
+  
+    .nav-list {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .nav-item i {
+      font-size: 1.5rem;
+    }
+  
+    .nav-text {
+      font-size: 0.8rem;
+    }
+  }
+  

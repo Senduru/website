@@ -1,0 +1,130 @@
+
+.home-container {
+    min-height: 100vh;
+    padding-top: 80px; /* Adjust for Navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    
+  }
+  /* Text Section (Left Side) */
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .name {
+    color: #66BFBF !important;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .role {
+    font-size: 1.3rem;
+    color: #38B000;
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .download-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    padding:13px !important;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #007bff, #00bcd4);
+    border: none;
+    color: #fff;
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+  }
+  
+  .download-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Section (Right Side) */
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .image-wrapper {
+    height:max-content ;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 25% 10%;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7), 0 0 20px rgba(0, 123, 255, 0.7);
+  }
+  .profile-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    filter: grayscale(100%);
+  }
+  
+  /* Hover Effect: Only the Image Zooms */
+  .image-wrapper:hover .profile-image {
+    transform: scale(1.2); /* Zoom the image */
+    filter: grayscale(0%);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .name {
+      font-size: 2.5rem;
+    }
+    .row {
+      flex-direction: column-reverse; /* Reverses the order of the elements */
+    }
+    .role {
+      font-size: 1.2rem;
+      max-width: 400px;
+      padding: 10px;
+      margin: 10px;
+
+    }
+  
+    .download-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+    .text-section {
+      padding-top: 50px;
+    }
+    .image-wrapper {
+      max-width: 250px;
+      margin-top: 10px;
+    }
+  }
+  h1 span{
+    color: #FFC107;
+    text-transform: uppercase;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
